@@ -1,0 +1,31 @@
+.nav-container {
+  width: 100%;
+  height: 10vh;
+  background-color: var(--nav-bg);
+}
+
+.nav-field {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.nav-list {
+  display: flex;
+  gap: 34px;
+  margin-right: 400px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-family: var(--font-highlight);
+  color: var(--accent);
+  font-size: 18px;
+  font-weight: 800;
+  transition: all 0.4s ease;
+   display: inline-block;
+}
+
+.nav-link:hover {
+  transform: translateY(-3px);
+}
