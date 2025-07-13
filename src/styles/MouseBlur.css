@@ -1,0 +1,12 @@
+.blur-circle {
+  position: fixed;
+  width: 200px;
+  height: 200px;
+  background: rgba(163, 231, 134, 0.2); /* cor do seu $primary */
+  border-radius: 50%;
+  filter: blur(80px);
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: top 0.05s ease, left 0.05s ease;
+}

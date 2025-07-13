@@ -4,11 +4,18 @@
     height: 100vh;
 }
 
-.home-title {
-    font-family: var(--font-title);
-    font-size: 48px;
-    color: var(--primary);
-    position: relative;
-    top: 11vw;
-    left: 10vw;
+.home-img-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.home-img {
+    z-index: 10;
+    width: 20vw;
+    border-radius: 50%;
+    margin-right: 15vw;
+}
+
+.blur-circle {
+  z-index: 9; /* abaixo da imagem */
 }

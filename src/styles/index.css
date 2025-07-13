@@ -21,3 +21,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Estiliza toda a barra */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* A trilha de fundo da barra */
+::-webkit-scrollbar-track {
+  background: var(--nav-bg); /* ou uma cor fixa */
+}
+
+/* O "ponteiro" que se move */
+::-webkit-scrollbar-thumb {
+  background-color: var(--accent);
+  border-radius: 10px;
+  border: 2px solid var(--nav-bg); /* espaço interno */
+
+}
+
+/* Quando passa o mouse */
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--primary);
+}

@@ -1,0 +1,19 @@
+.typewriter-wrapper {
+  display: flex;
+  font-size: 1.4rem;
+  width: 33vw;
+  position: relative;
+  top: 13vw;
+  left: 15vw;
+}
+
+.typewriter-title {
+  font-family: var(--font-title);
+  color: var(--text);
+  white-space: pre-wrap;
+}
+
+.highlighted-text {
+  color: var(--accent);
+  font-family: var(--font-highlight);
+}
