@@ -1,0 +1,108 @@
+.about-section {
+    background-color: var(--bg);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.about-icons-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    justify-content: flex-start;
+    border-radius: 16px;
+    margin-left: 10vw;
+    width: 62vw;
+    height: auto;
+    min-height: 25vw;
+    padding: 15px 25px;
+    background-color: var(--card);
+}
+
+.about-card-title {
+    font-family: var(--font-title);
+    color: var(--primary);
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem 0 0 0; 
+}
+
+.about-icons-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+    grid-template-rows: repeat(2, 1fr);    /* 2 linhas */
+    gap: 1rem;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 5vh;
+}
+
+.about-tech-icon {
+    width: 80px;
+    height: 80px;
+    filter: drop-shadow(0 2px 8px rgba(57,115,208,0.12));
+    background: #fff1;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+.about-tech-icon:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    gap: 3rem;
+}
+
+.about-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35vw;
+    height: 25vw;
+    background: var(--nav-bg);
+    gap: 1rem;
+    border-radius: 12px;
+    padding: 0px 40px;
+}
+
+.about-title {
+    font-family: var(--font-title);
+    color: var(--primary);
+    font-size: 2.5rem;
+}
+
+.about-text {
+    font-family: var(--font-text);
+    color: var(--text);
+    font-size: 1.2rem;
+    padding: 0 1rem;
+    text-align: left;
+}
+
+.highlight-react {
+    color: #61DAFB;
+    font-family: var(--font-highlight);
+}
+
+.highlight-typescript {
+    color: #3178C6;
+    font-family: var(--font-highlight);
+}
+
+.highlight-tailwind {
+    color: #06B6D4;
+    font-family: var(--font-highlight);
+}

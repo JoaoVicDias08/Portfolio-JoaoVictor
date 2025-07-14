@@ -4,12 +4,13 @@
 /*Variáveis de cores e fontes*/
 
 :root {
-  --bg: #060e03;
+  --bg: #000712;
   --nav-bg: #020a04;
   --text: #eefbe8;
-  --primary: #a3e786;
-  --secondary: #1b8c23;
-  --accent: #2cd64b;
+  --primary: #3973d0;
+  --secondary: #2a4b81;
+  --accent: #51a9cf;
+  --card: #0d1a2f;
 
   --font-title: 'Montserrat', sans-serif;
   --font-highlight: 'Space Grotesk', sans-serif;
@@ -20,6 +21,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 /* Estiliza toda a barra */

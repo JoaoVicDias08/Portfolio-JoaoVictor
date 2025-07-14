@@ -18,7 +18,7 @@ export default function Navbar({ onMouseEnter, onMouseLeave }) {
           </li>
           <li className="nav-item">
             <a href="#about" className="nav-link">
-              About
+              About Me
             </a>
           </li>
           <li className="nav-item">
